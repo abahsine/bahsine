@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+
+.chat-container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fff; /* Couleur de fond pour le conteneur du chat */
+    border-radius: 8px; /* Coins arrondis pour le conteneur du chat */
+    overflow: hidden; /* Cache le contenu débordant du conteneur */
+  }
+  
+
+  
+
+#chat-display {
+    height: 300px;
+    overflow-y: scroll; /* Ajoute une barre de défilement verticale si nécessaire */
+    border-bottom: 1px solid #ccc;
+    padding: 10px; /* Espacement interne pour l'affichage des messages */
+  }
+  
+  #chat-display {
+    height: 300px;
+    overflow-y: scroll; /* Ajoute une barre de défilement verticale si nécessaire */
+    border-bottom: 1px solid #ccc;
+    padding: 10px; /* Espacement interne pour l'affichage des messages */
+  }
+  
+  
+  .user-message {
+    align-self: flex-end; /* Aligne les messages de l'utilisateur à droite */
+    background-color: #2ecc71; /* Couleur de fond pour les messages de l'utilisateur */
+    color: #fff; /* Couleur du texte pour les messages de l'utilisateur */
+    border-radius: 10px 10px 0 10px; /* Coins arrondis pour les messages de l'utilisateur */
+    padding: 10px; /* Espacement interne pour les messages de l'utilisateur */
+    max-width: 70%; /* Largeur maximale pour les messages de l'utilisateur */
+  }
+  
+  
+  .bot-message {
+    align-self: flex-start; /* Aligne les messages du chatbot à gauche */
+    background-color: #3498db; /* Couleur de fond pour les messages du chatbot */
+    color: #fff; /* Couleur du texte pour les messages du chatbot */
+    border-radius: 10px 10px 10px 0; /* Coins arrondis pour les messages du chatbot */
+    padding: 10px; /* Espacement interne pour les messages du chatbot */
+    max-width: 70%; /* Largeur maximale pour les messages du chatbot */
+  }
+  .chat-form {
+    display: flex; /* Utilise le modèle de boîte flexible pour le formulaire de chat */
+    border-top: 1px solid #ccc; /* Ligne supérieure pour le formulaire de chat */
+    padding: 10px; /* Espacement interne pour le formulaire de chat */
+  }
+  
+  
+ 
+  #user-input {
+    flex: 1; /* Le champ de saisie utilisateur prend autant d'espace disponible que possible */
+    padding: 5px; /* Espacement interne pour le champ de saisie utilisateur */
+    border-radius: 4px; /* Coins arrondis pour le champ de saisie utilisateur */
+    border: 1px solid #ccc; /* Bordure du champ de saisie utilisateur */
+  }
+  
+  
+  #send-button {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #send-button:hover {
+    background-color: #2980b9;
+  }
+  
